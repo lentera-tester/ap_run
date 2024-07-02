@@ -4,5 +4,6 @@ build:
   commands:
     build:
       - echo "Build step"
+      - pip install -r requirements.txt
 run:
   command: python -m http.server 8000
